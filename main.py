@@ -33,7 +33,7 @@ def make_data():
 if choice:
     heads = input("Input the Categories for your chart: ")
     header = heads.split()
-    rows = int(input('How Many Rows (5,10,15): '))
+    rows = int(input('How Many Rows: '))
 
     for i in range(rows):
         make_data()
