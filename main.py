@@ -22,7 +22,7 @@ def open_data():
 
 def make_data():
     global mode
-    create_list = input("")
+    create_list = input("Enter your data:\n(enter as a row with a single space seperating the data)")
     create_list = f"{create_list}\n"
 
     with open("file_1.txt", mode=mode) as file:
